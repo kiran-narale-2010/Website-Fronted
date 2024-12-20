@@ -1,0 +1,285 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.Navbar{
+  height:90px;
+   display:flex; 
+   justify-content:space-between;
+   align-items: center;
+   /* background-color: aqua; */
+}
+.list{
+  display:flex;
+  justify-content:space-evenly;
+}
+li{
+  list-style: none;
+}
+.Navbar2{
+  width:40%;
+}
+.image{
+  margin-left:36px;
+  padding:10px;
+  border-style:solid;
+  border-radius:7px;
+  background-color:#c9b6ae98;
+}
+.section1{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  background-color:rgba(37, 111, 248, 0.5);
+
+}
+.info{
+  width:50%;
+  height:350px;
+  padding-left:5%;
+  line-height:1;
+}
+.image2{
+  width: 50%;
+  height:400px;
+
+}
+#secandimage{
+height:100vh;
+height:400px;
+}
+.p1{
+  color: #003b99;
+  font-weight:bold;
+  letter-spacing:0.1rem;
+  line-height:1.5;
+  text-transform: capitalize;
+
+
+}
+.hh1{
+  color:#003b99;
+  font-weight:bold;
+  line-height:1.5;
+  font-size:3.5rem;
+  text-transform: capitalize;
+  font-family:'Jost';
+}
+.p2{
+  color:white;
+  font-size: large;
+  line-height:1.5;
+  text-transform:capitalize;
+}
+.button1{
+  height:50px;
+  width:150px;
+  margin-top:10px;
+  border-radius:5px;
+  background-color:blue;
+  font-size:1rem;
+  font-family:'Franklin Gothic Medium','Arial Narrow', Arial, sans-serif;
+}
+.empty1{
+  height:3px;
+  background-color:black;
+}
+.section2{
+  height:100vh;
+}
+
+
+/* section secand */
+.intro{
+  height:30%;
+  padding-top:40px;
+  padding-left:40px;
+  list-style: none;
+  /* background-color:#003b99; */
+  line-height: 1.5;
+  font-size: 1.2rem;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+a{
+  text-decoration: none;
+}
+.hub{
+  height:300px;
+  /* background-color:antiquewhite; */
+  display:flex;
+  justify-content:space-around;
+
+}
+.the1{
+  height:300px;
+  width:350px;
+  padding:10px;
+  line-height: 1.3;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin:2px;
+  background-color:rgb(216, 225, 233);
+  border-radius:1rem;
+}
+.image3{
+  padding-left:6.7rem;
+}
+.hh2{
+  padding-left:6.7rem;
+  font-weight: 800;
+  
+}
+.empty2{
+  height:3px;
+  background-color:black;
+}
+.section3{
+  height:100vh;
+  background-color:aliceblue;
+
+}
+.courses {
+  margin-top:30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 55px;
+  padding: 20px;
+}
+.cour {
+  flex: 1 1 calc(20.333% - 10px); /* Adjust the percentage for different number of columns */
+  border-radius: 8px;
+  /* box-shadow: 0 2px 4px rgba(0,0,0,0.1); */
+  padding: 15px;
+  text-align: center;
+  box-sizing: border-box; /* Ensure padding doesn't affect the width */
+  background-color:rgb(192, 166, 202);
+}
+.cour i {
+  font-size: 2rem;
+  color: #7dbbf5;
+}
+.cour h2 {
+  font-size: 1.5rem;
+  margin: 10px 0;
+}
+.cour p {
+  font-size: 1.1rem;
+  color: #666;
+}
+.intro2{
+  height:100px;
+  line-height: 2rem;
+  padding-left:45px;
+  /* background-color:#003b99; */
+}
+.intro2 p{
+  font-size:1.2rem;
+}
+.intro2 h2{
+  padding-top:2rem;
+  font-size:1.8rem;
+}
+#one{
+  color:red;
+}
+#two{
+  color:orange;
+}
+#three{
+  color:blue;
+}
+#four11{
+  color:rgb(212, 100, 48);
+}#five{
+  color:rgb(231, 36, 166);
+}#six{
+  color:rgb(9, 109, 18);
+}#seven{
+  color:rgb(236, 22, 22);
+}
+.cour:hover{
+  background-color:rgba(161, 172, 182, 0.856);
+}
+.empty3{
+  height:3px;
+  background-color: black;
+
+}
+
+.intro4{
+  display:flex;
+  gap: 20px;
+  justify-content:space-around;
+  padding-top:20px;
+  padding-left:50px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.image6{
+  width:23rem;
+  height:400px;
+  border-style: solid;
+  border-radius:5px;
+}
+.why{
+  height:100px;
+  padding-top:20px;
+  padding-left:40px;
+}
+.why p{
+  font-size:19px;
+}
+.info9{
+  height:200px;
+  margin-bottom: 10px;
+  
+}
+.secand{
+  padding-top:90px;
+  padding-right:20px;
+}
+.first{
+  width:35%;
+}
+.third{
+  width:35%;
+}
+
+.empty4{
+  background-color: black;
+  height:3px;
+}
+.footer1{
+  background-color: black;
+  height: 200px;
+  font-size:x-large;
+  
+}
+i{
+  color: white;
+}
+.names{
+  width:500px;
+  color:white;
+  height:50px;
+  padding-left:30%;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.network{
+  width:500px;
+  color:white;
+  height:70px;
+  padding-left:30%;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#cc{
+  color: white;
+  font-size: larger;
+  padding-left:41%;
+}
